@@ -31,7 +31,16 @@ namespace EFNgApp.Controllers
         [Route("Create")]
         public int Create([FromBody] TblEmployee employee)
         {
-            return objemployee.AddEmployee(employee);
+            try
+            {
+                return objemployee.AddEmployee(employee);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+          
         }
 
         [HttpGet]
