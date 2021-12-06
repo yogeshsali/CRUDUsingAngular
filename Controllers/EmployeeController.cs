@@ -17,6 +17,7 @@ namespace EFNgApp.Controllers
 
         public EmployeeController(IEmployee _objemployee)
         {
+
             objemployee = _objemployee;
         }
 
