@@ -3,3 +3,9 @@
 ################################################################################
 
 /bin/Debug/netcoreapp3.0
+/obj/Debug/netcoreapp3.0/staticwebassets
+/obj
+/.vs/CRUDOperations/DesignTimeBuild
+/.vs/CRUDOperations/v16
+/bin/Release/netcoreapp3.0
+/Properties/PublishProfiles
